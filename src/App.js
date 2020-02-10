@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import whiskey from "./imgs/whiskey.jpg";
 import tubby from "./imgs/tubby.jpg";
 import hazel from "./imgs/hazel.jpg";
+import bruno from "./imgs/bruno.jpg";
 import NavBar from "./NavBar";
 import Routes from "./Routes";
 import "./App.css";
@@ -37,6 +38,16 @@ class App extends Component {
           "Tubby is not the brightest dog.",
           "Tubby does not like walks or exercise.",
           "Tubby loves eating food"
+        ]
+      },
+      {
+        name: "Bruno",
+        age: 2,
+        src: bruno,
+        facts: [
+          "Bruno loves to eat.",
+          "Bruno has a teddy bear.",
+          "Bruna loves to cuddle with you!"
         ]
       }
     ]
